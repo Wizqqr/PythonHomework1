@@ -15,9 +15,9 @@ class SuperHero:
         return(f'name: {self.name}\n'
                f'nickname: {self.nickname}\n'
                f'superpower: {self.superpower}\n'
-               f'health_points: {self.health_points}\n'
+               f'health_points: {self.health_points * 2}\n'
                f'catchphrase: {self.catchphrase}')
 hero = SuperHero("Cristiano Ronaldo", "CR7", "Goal Machine", 100, "I'm the best")
 print(hero.sound_name())
 print(hero.double_hp())
-print(hero.full_hero())
+print(hero)
